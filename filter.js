@@ -1,5 +1,6 @@
 const colors = ["pink", "blue", "green", "black"];
 const colorBoxes = document.querySelectorAll(".color_boxes");
+const allColors = document.querySelectorAll(".color")
 
 for (let i = 0; i < colorBoxes.length; i++) {
     colorBoxes[i].addEventListener("click", filterTickets);
